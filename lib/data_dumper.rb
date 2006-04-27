@@ -41,7 +41,7 @@
 # record = User.new :name => "Scott", :group_id => 2, :enabled => 1
 # record.id = 12
   
-  module DataDumper
+  module Datadumper
   
     def dump_to_migration(*args)
       except = [:id, :updated_at, :updated_on, :created_at, :created_on, :version, :lock_version]
