@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), 'abstract_unit')
+require File.join(File.dirname(__FILE__), 'test_helper')
 require File.join(File.dirname(__FILE__), 'fixtures/widget')
 
 class DatadumperTest < Test::Unit::TestCase
