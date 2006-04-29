@@ -5,7 +5,6 @@ $:.unshift(f + '/../lib')
 RAILS_ENV = 'test'
 
 require 'test/unit'
-require 'breakpoint'
 require File.expand_path(File.join(f, '../../../../config/environment.rb'))
 require 'active_record/fixtures'
 
